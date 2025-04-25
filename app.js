@@ -4,7 +4,7 @@ let trial = 0;
 
 let realNumber = Math.floor(Math.random() * 10);
 
-localstorage.setItem("Answer", realNumber);
+localStorage.setItem("Answer", realNumber);
 
 document.getElementsByClassName('trial')[0].innerHTML = '3';
 
