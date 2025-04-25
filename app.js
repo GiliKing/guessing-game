@@ -4,6 +4,7 @@ let trial = 0;
 
 let realNumber = Math.floor(Math.random() * 10);
 
+localstorage.setItem("Answer", realNumber);
 
 document.getElementsByClassName('trial')[0].innerHTML = '3';
 
@@ -28,7 +29,7 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
                 document.getElementById("reset").style.display = "block";
 
                 document.getElementById("reset").addEventListener("click", function() {
-                    window.location.href = "baba-ijebu.html"
+                    window.location.href = "index.html"
 
                     // alert("yes");
                 })
@@ -53,7 +54,7 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
                 document.getElementsByClassName("correct")[0].style.display = "block";
                 document.getElementsByTagName("button")[0].style.display = "none";
                 document.getElementById("reset").addEventListener("click", function() {
-                    window.location.href = "baba-ijebu.html";
+                    window.location.href = "index.html";
                     // alert("yes");
                 })
             } else {
@@ -75,7 +76,7 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
                 document.getElementsByClassName("correct")[0].style.display = "block";
                 document.getElementsByTagName("button")[0].style.display = "none";
                 document.getElementById("reset").addEventListener("click", function() {
-                    window.location.href = "baba-ijebu.html"
+                    window.location.href = "index.html"
 
                     // alert("yes");
                 })
@@ -109,7 +110,7 @@ document.getElementsByTagName("button")[0].addEventListener("click", function() 
 
 
             document.getElementById("reset").addEventListener("click", function() {
-                window.location.href = "baba-ijebu.html"
+                window.location.href = "index.html"
 
                 // alert("yes");
             })
